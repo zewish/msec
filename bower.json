@@ -1,0 +1,26 @@
+{
+  "name": "msec",
+  "version": "1.0.0",
+  "description": "msec - string to miliseconds parser",
+  "main": "msec.umd.js",
+  "authors": [
+    "Iskren Slavov <iskren.s@gmail.com>"
+  ],
+  "license": "BSD-2-Clause",
+  "keywords": [
+    "miliseconds",
+    "msec",
+    "time",
+    "interval",
+    "timeout",
+    "parser",
+    "setTimeout",
+    "setInterval"
+  ],
+  "homepage": "https://github.com/zewish/msec",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
