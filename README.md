@@ -19,6 +19,10 @@ setInterval(() => {
 setTimeout(() => {
     console.log('I execute after 1h 3m 15s');
 }, msec('5s 10s 1h 3m'));
+
+new Date(Date.now() + msec('2d')); // same time, 2 days later
+
+new Date(Date.now() + msec('2d 4h')); // 2 days and 4 hours later
 ```
 
 #### Install (NPM)

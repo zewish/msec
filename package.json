@@ -1,6 +1,6 @@
 {
   "name": "msec",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "msec - string to miliseconds parser",
   "main": "msec.js",
   "scripts": {
