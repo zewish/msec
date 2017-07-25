@@ -1,5 +1,3 @@
-'use strict';
-
 var msec = function (time) {
     return ("" + (time || ''))
     .toLowerCase()
@@ -28,4 +26,4 @@ var msec = function (time) {
     }, 0);
 };
 
-module.exports = msec;
+export default msec;

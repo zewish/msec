@@ -1,7 +1,7 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-    typeof define === 'function' && define.amd ? define(factory) :
-    (global.msec = factory());
+	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
+	typeof define === 'function' && define.amd ? define(factory) :
+	(global.msec = factory());
 }(this, (function () { 'use strict';
 
 var msec = function (time) {
@@ -30,7 +30,7 @@ var msec = function (time) {
 
         return res + num;
     }, 0);
-}
+};
 
 return msec;
 
