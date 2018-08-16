@@ -30,9 +30,9 @@ new Date(Date.now() + msec('2d 4h')); // 2 days and 4 hours later
 $ npm install --save msec
 ```
 
-#### Install (Bower)
+#### Install (NPM)
 ```bash
-$ npm install --save msec
+$ bower install --save msec
 ```
 
 #### Test
