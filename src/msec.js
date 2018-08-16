@@ -5,22 +5,22 @@ export default (time) => {
     .toLowerCase()
     .split(/\s+/)
     .reduce((res, curr) => {
-        let num = (parseInt(curr) || 0)
-            , last = curr.substr(-1);
+        const num = (parseInt(curr) || 0);
+        const last = curr.substr(-1);
 
-        if (last == 'd') {
+        if (last === 'd') {
             return res + num * 864e5;
         }
 
-        if (last == 'h') {
+        if (last === 'h') {
             return res + num * 36e5;
         }
 
-        if (last == 'm') {
+        if (last === 'm') {
             return res + num * 6e4;
         }
 
-        if (last == 's') {
+        if (last === 's') {
             return res + num * 1e3;
         }
 
