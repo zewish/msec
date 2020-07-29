@@ -1,10 +1,11 @@
 {
   "name": "msec",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "msec - string to miliseconds parser",
   "main": "msec.js",
   "module": "msec.es.js",
   "jsnext:main": "msec.es.js",
+  "typings": "src/msec.d.ts",
   "scripts": {
     "pretest": "rollup -c -f cjs",
     "test": "mocha ./test.js",
@@ -20,11 +21,11 @@
   "author": "Iskren Slavov <iskren.s@gmail.com>",
   "license": "BSD-2-Clause",
   "devDependencies": {
-    "buble": "^0.19.3",
-    "chai": "^4.1.2",
-    "mocha": "^5.2.0",
-    "rollup": "^0.64.1",
-    "rollup-plugin-buble": "^0.19.2"
+    "@rollup/plugin-buble": "^0.21.3",
+    "buble": "^0.20.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.0.1",
+    "rollup": "^2.23.0"
   },
   "keywords": [
     "milliseconds",

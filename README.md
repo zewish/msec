@@ -25,14 +25,9 @@ new Date(Date.now() + msec('2d')); // same time, 2 days later
 new Date(Date.now() + msec('2d 4h')); // 2 days and 4 hours later
 ```
 
-#### Install (NPM)
+#### Install
 ```bash
 $ npm install --save msec
-```
-
-#### Install (Bower)
-```bash
-$ bower install --save msec
 ```
 
 #### Test
